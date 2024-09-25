@@ -1,0 +1,18 @@
+/* App.css */
+body {
+    
+    background: rgb(247,225,0);
+    background: radial-gradient(circle at top left, rgba(0,0,0,1) 0%, rgba(247,225,0,1)85%);
+
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margins */
+  }
+  
+  .App {
+    /* You can add additional styling for your app container here if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
