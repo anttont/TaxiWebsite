@@ -1,0 +1,30 @@
+/* ImageWithText.css */
+.image-container {
+    position: relative; /* Positioning context for the overlay */
+    width: 100%; /* You can set a specific width if needed */
+    max-width: 900px; /* Maximum width for responsiveness */
+    margin: 5rem auto 0; /* Add top margin to create space below the navbar */
+    /* Adjust the value of '20px' based on your navbar height */
+  }
+  
+  .image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space below the image */
+  }
+  
+  .overlay {
+    position: absolute; /* Position overlay on top of the image */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    right: 0; /* Stretch to the right */
+    bottom: 0; /* Stretch to the bottom */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center align the items */
+    align-items: center; /* Center vertically */
+   /* background-color: rgba(0, 0, 0, 0.5);  Semi-transparent background */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust text size */
+    text-align: center; /* Center text */
+  }
+  
