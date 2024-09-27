@@ -1,4 +1,8 @@
 /* Reviews.css */
+* {
+  box-sizing: border-box;
+}
+
 .contact-container {
     width: 100%; /* Full width of the container */
    
@@ -10,7 +14,7 @@
   }
   
   .contact-box {
-    background-color: rgb(255, 255, 255); /* White background for each review */
+    background-color:rgb(255, 206, 50); /* White background for each review */
     padding: 15px; /* Space inside each review box */
     margin-bottom: 20px; /* Space between review boxes */
     border-radius: 8px; /* Slight rounded corners */
@@ -33,5 +37,25 @@
     
     font-size: 1.3em;   
   }
+
+  .copyright {
+    display: flex;                /* Enables flexbox */
+    justify-content: space-between; /* Pushes the <p> tags to opposite ends */
+    align-items: center;           /* Vertically centers the text */
+    margin-top: 20px;              /* Space above the copyright section */
+  }
+  
+  .copyright p {
+    margin: 0;                     /* Removes default margin */
+    font-size: 16px;               /* Font size for the review text */
+    color: rgb(255, 206, 50);      /* Text color for the copyright info */
+    font-variant: small-caps;
+    font-size: 1.3em;
+  }
+  
+  .copyright p:last-child {
+    margin-left: auto;             /* Pushes the last <p> to the far right */
+  }
+  
   
   

@@ -10,7 +10,7 @@
   
 .review-box {
   width: 100%;
-  max-width: 600px; /* Ensures each review box has a max width */
+  max-width: 690px; /* Ensures each review box has a max width */
   background-color: rgb(29, 99, 255);
   padding: 15px;
   margin-bottom: 30px;

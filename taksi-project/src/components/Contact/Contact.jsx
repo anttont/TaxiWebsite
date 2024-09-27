@@ -12,6 +12,13 @@ const Contact = () => {
         <p>Sähköposti: taksi@firma.fi</p>
       </div>
 
+      <div className="copyright">
+        <p>© 2024 TAKSI KARI TORNIKOSKI</p>
+        <p>sivusto: anttonitornikoski.com</p>
+      </div>
+
+      
+
     </div>
   );
 };

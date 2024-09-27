@@ -9,6 +9,12 @@
     flex: 1;                      /* The image will take up one part of the width */
     margin-right: 20px;           /* Space between the image and the text */
   }
+
+  .about-text {
+    flex: 1;                      /* The image will take up one part of the width */
+    margin-right: 20px;
+    padding: 80px;           /* Space between the image and the text */
+  }
   
   .about-image img {
     max-width: 100%;              /* Make sure the image doesn't exceed its container */
