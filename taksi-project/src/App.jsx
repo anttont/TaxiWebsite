@@ -3,6 +3,9 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
+import Reviews from './components/Reviews/Reviews'
+import Contact from './components/Contact/Contact'
+import Pricing from './components/Pricing/Pricing'
 
 
 function App() {
@@ -11,8 +14,10 @@ function App() {
     <div >
     <Navbar />
     <About />
-    
-  </div>
+    <Reviews />
+    <Pricing />
+    <Contact />
+    </div>
   )
 }
 

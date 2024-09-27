@@ -1,30 +1,26 @@
-/* ImageWithText.css */
-.image-container {
-    position: relative; /* Positioning context for the overlay */
-    width: 100%; /* You can set a specific width if needed */
-    max-width: 900px; /* Maximum width for responsiveness */
-    margin: 5rem auto 0; /* Add top margin to create space below the navbar */
-    /* Adjust the value of '20px' based on your navbar height */
+/* About.css */
+.about-container {
+    display: flex;               /* Enable flexbox for side-by-side layout */
+    align-items: center;          /* Vertically center the image and text */
+    padding: 20px;                /* Add some padding */
   }
   
-  .image {
-    width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevent extra space below the image */
+  .about-image {
+    flex: 1;                      /* The image will take up one part of the width */
+    margin-right: 20px;           /* Space between the image and the text */
   }
   
-  .overlay {
-    position: absolute; /* Position overlay on top of the image */
-    top: 0; /* Align to top */
-    left: 0; /* Align to left */
-    right: 0; /* Stretch to the right */
-    bottom: 0; /* Stretch to the bottom */
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center align the items */
-    align-items: center; /* Center vertically */
-   /* background-color: rgba(0, 0, 0, 0.5);  Semi-transparent background */
-    color: white; /* Text color */
-    font-size: 24px; /* Adjust text size */
-    text-align: center; /* Center text */
+  .about-image img {
+    max-width: 100%;              /* Make sure the image doesn't exceed its container */
+    height: auto;                 /* Maintain the image's aspect ratio */
+  }
+  
+  .about-container p {
+    flex: 2;                      /* The text will take up two parts of the width */
+    font-size: 1.2rem;            /* Adjust the text size */
+    line-height: 1.6;  
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2em;           /* Increase line height for readability */
   }
   

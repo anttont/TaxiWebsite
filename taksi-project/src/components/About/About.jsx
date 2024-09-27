@@ -1,19 +1,16 @@
-
 import React from 'react';
-import './About.css'; // Ensure this file exists for styling
-import skoda_placeholder from '/src/assets/images/skoda_transparent.png'
+import './About.css'; 
+import skoda_placeholder from '/src/assets/images/skoda_transparent.png';
 
 const About = () => {
   return (
-    <div className="image-container">
-      <img 
-        src={skoda_placeholder} // Replace with your actual image path
-        alt="Descriptive Alt Text"
-        className="image" // Only apply the base image class
-      />
-      <div className="overlay">
-        <h2 className="overlay-text">Your Overlay Text Here</h2>
+    <div className='about-container'>
+      <div className="about-image">
+        <img src={skoda_placeholder} alt="skoda" />
       </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
     </div>
   );
 };

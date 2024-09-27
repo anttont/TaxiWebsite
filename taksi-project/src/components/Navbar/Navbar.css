@@ -5,20 +5,18 @@ body {
 }
 
 .taksi__navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 1rem 4rem;
-
-    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent black */
-    padding: 15px; /* Padding around the navbar */
-    position: fixed; /* Fixed position at the top */
-    top: 0; /* Aligns it to the top */
-    left: 0; /* Aligns it to the left */
-    width: 100%; /* Ensures it spans the full width */
-    z-index: 10; /* Keeps it above other content */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-sizing: border-box; /* Include padding in the total width */
+}
   
   .taksi__navbar ul {
     list-style: none; /* Remove bullet points */
@@ -30,12 +28,34 @@ body {
   
   .taksi__navbar li {
     margin: 0 20px; /* Space between items */
-    color: #FFD700; /* Taxi yellow text color */
+    color: rgb(255, 206, 50); /* Taxi yellow text color */
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2em;
+
   }
+
 
   .taksi__navbar p {
     margin: 0 20px; /* Space between items */
-    color: #FFD700; /* Taxi yellow text color */
+    color: rgb(255, 206, 50); /* Taxi yellow text color */
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .taksi__navbar-button {
+    background-color: #007BFF; /* Blue color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 40px; /* Adjust the padding for the size */
+    border-radius: 50px; /* Makes the button rounded */
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
   }
   
   .taksi__navbar li:hover {

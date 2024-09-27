@@ -4,14 +4,15 @@ const Navbar = () => {
     return (
         <div className="">
             <nav className="taksi__navbar">
-                <p>Taksi Kari Tornanikosk</p>
+                <p>TAKSI KARI TORNIKOSKI </p>
 
                 <ul className="taksi__navbar-list">
-                <li>Koti</li>
-                <li>Tietoa</li>
-                <li>Palvelut</li>
-                <li>Ota yhteyttä</li>
+                <li>hinnasto</li>
+                <li>palvelut</li>
+                <li>yhteystiedot</li>
                 </ul>
+
+                <button className="taksi__navbar-button">tilaa</button> 
                 </nav>
         </div>
      )
