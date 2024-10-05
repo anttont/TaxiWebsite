@@ -10,54 +10,103 @@ body {
   align-items: center;
   padding: 1rem 4rem;
   background-color: #000000;
-  
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
   box-sizing: border-box; /* Include padding in the total width */
 }
+
+.taksi__navbar ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Display items in a row */
+  justify-content: center; /* Center align the items */
+}
+
+.taksi__navbar li {
+  margin: 0 20px; /* Space between items */
+  color: rgb(255, 206, 50); /* Taxi yellow text color */
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.taksi__navbar p {
+  margin: 0 20px; /* Space between items */
+  color: rgb(255, 206, 50); /* Taxi yellow text color */
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.taksi__navbar-button {
+  background-color: #007BFF; /* Blue color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 40px; /* Adjust the padding for the size */
+  border-radius: 50px; /* Makes the button rounded */
+  text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 2em;
+  cursor: pointer;
+  border-top-left-radius: 50px;
+  transition: 0.5s;
+}
+
+.taksi__navbar-button:hover {
+  border-top-left-radius: 0px;
+  /* Underline on hover for effect */
+}
+
+.taksi__navbar li:hover {
+  text-decoration: underline; /* Underline on hover for effect */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .taksi__navbar {
+    padding: 1rem 2rem;
+  }
   
+  .taksi__navbar li, .taksi__navbar p, .taksi__navbar-button {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .taksi__navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
   .taksi__navbar ul {
-    list-style: none; /* Remove bullet points */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center align the items */
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .taksi__navbar li {
-    margin: 0 20px; /* Space between items */
-    color: rgb(255, 206, 50); /* Taxi yellow text color */
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2em;
-
+    margin: 10px 0; /* Adjust the space for a vertical layout */
+    font-size: 1.6em;
   }
 
+  .taksi__navbar p, .taksi__navbar-button {
+    font-size: 1.6em;
+    padding: 10px 20px; /* Adjust button padding */
+  }
+}
 
-  .taksi__navbar p {
-    margin: 0 20px; /* Space between items */
-    color: rgb(255, 206, 50); /* Taxi yellow text color */
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2em;
+@media only screen and (max-width: 480px) {
+  .taksi__navbar {
+    padding: 0.5rem;
   }
 
-  .taksi__navbar-button {
-    background-color: #007BFF; /* Blue color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    padding: 10px 40px; /* Adjust the padding for the size */
-    border-radius: 50px; /* Makes the button rounded */
-    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 2em;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+  .taksi__navbar li, .taksi__navbar p, .taksi__navbar-button {
+    font-size: 1.4em;
+    margin: 5px 0; /* Reduce spacing */
+    padding: 8px 15px; /* Adjust button padding */
   }
-  
-  .taksi__navbar li:hover {
-    text-decoration: underline; /* Underline on hover for effect */
-  }
+}

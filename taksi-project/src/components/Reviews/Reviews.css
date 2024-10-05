@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row; /* Arrange reviews horizontally */
   flex-wrap: wrap; /* Wrap reviews to next row if they overflow */
-  justify-content: space-around; /* Distribute evenly with space between */
+  justify-content: space-evenly; /* Distribute evenly with space between */
   align-items: flex-start; /* Align to the top of the container */
   padding: 20px;
 }

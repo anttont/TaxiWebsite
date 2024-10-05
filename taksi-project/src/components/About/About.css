@@ -29,4 +29,38 @@
     font-weight: bold;
     font-size: 2em;           /* Increase line height for readability */
   }
+
+  .animation_left{
+    opacity: 0;
+    transform: translateX(500px); /* Start 100px to the right */
+    animation: moveleft 1s ease forwards;
+  }
+  
+  @keyframes moveleft {
+    0% {
+      opacity: 0;
+      transform: translateX(500px); /* Start from the right */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at the original position */
+    }
+  }
+
+  .animation_right {
+    opacity: 0;
+    transform: translateX(-500px); /* Start 100px to the right */
+    animation: moverighttoleft 1s ease forwards;
+  }
+  
+  @keyframes moverighttoleft {
+    0% {
+      opacity: 0;
+      transform: translateX(-500px); /* Start from 100px to the right */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at the original position */
+    }
+  }
   
