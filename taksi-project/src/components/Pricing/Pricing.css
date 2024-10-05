@@ -10,7 +10,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
   }
 
-  
+  .example-container {
+      margin: 20px auto;
+  }
+
+  .pricing-container {
+    margin: 20px auto;
+}
   
   h2 {
     text-align: center; /* Center the title */
@@ -23,6 +29,14 @@
     border-radius: 5px; /* Rounded corners for items */
     padding: 15px; /* Padding inside each item */
     margin: 10px 0; /* Margin between items */
+    background-color: white; /* White background for items */
+  }
+
+  .example-item {
+    border: 1px solid #ddd; /* Light border for each pricing item */
+    border-radius: 5px; /* Rounded corners for items */
+    padding: 5px; /* Padding inside each item */
+    margin: 5px 0; /* Margin between items */
     background-color: white; /* White background for items */
   }
   

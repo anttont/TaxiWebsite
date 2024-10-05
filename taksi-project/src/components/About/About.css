@@ -1,5 +1,5 @@
 /* About.css */
-.about-container {
+.about-image-container {
     display: flex;               /* Enable flexbox for side-by-side layout */
     align-items: center;          /* Vertically center the image and text */
     padding: 20px;                /* Add some padding */
@@ -13,7 +13,7 @@
   .about-text {
     flex: 1;                      /* The image will take up one part of the width */
     margin-right: 20px;
-    padding: 80px;           /* Space between the image and the text */
+    padding: 40px;           /* Space between the image and the text */
   }
   
   .about-image img {
