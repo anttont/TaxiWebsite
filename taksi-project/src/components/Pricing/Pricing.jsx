@@ -29,24 +29,24 @@ const Pricing = () => {
       <p className="note">Note: Prices may vary based on demand and traffic conditions.</p>
     </div>
     <div className="example-container">
-    <h2>Esimerkki hinnasto</h2>
+    <h2>Esimerkki matkoja</h2>
     <div className="example-item">
-        <p>Base fare: $5.00</p>
+        <p>Tampere - Kangasala: 5€</p>
     </div>
     <div className="example-item">
-        <p>Base fare: $5.00</p>
+        <p>Tampere - Helsinki: 250€</p>
     </div>
     <div className="example-item">
-    <   p>Base fare: $5.00</p>
+    <   p>Tampere - Helsinki: 250€</p>
     </div>
     <div className="example-item">
-        <p>Base fare: $5.00</p>
+        <p>Tampere - Helsinki: 250€</p>
     </div>
     <div className="example-item">
-        <p>Base fare: $5.00</p>
+        <p>Tampere - Helsinki: 250€</p>
     </div>
     <div className="example-item">
-    <   p>Base fare: $5.00</p>
+    <   p>Tampere - Helsinki: 250€</p>
     </div>
 
     
