@@ -12,7 +12,7 @@ const Navbar = () => {
       };
 
     return (
-        <div className="">
+        <div className="taksi__navbar-container">
             <nav className="taksi__navbar">
                 <p>KARI TORNIKOSKI TAKSI</p>
 

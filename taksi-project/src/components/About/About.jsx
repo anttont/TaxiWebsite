@@ -6,8 +6,11 @@ import kari from '/src/assets/images/fakekaritransparent.png';
 const About = () => {
   return (
     <div className='about-container'>
-
-<div className='about-image-container'>
+        <div className='about-headtext'>
+          <h1>tervetuloa parhaan taksin kyytiin!</h1>
+          
+        </div>
+      <div className='about-image-container'>
       <div className="about-image animation_right">
         <img src={skoda_placeholder} alt="skoda" />
       </div>
