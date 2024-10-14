@@ -1,6 +1,7 @@
 /* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body {
-    
+    font-family: 'Poppins', sans-serif;
     background: rgb(255, 206, 50);
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margins */
