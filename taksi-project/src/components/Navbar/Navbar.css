@@ -33,15 +33,22 @@
 }
 
 .taksi__navbar li {
-  margin: 0 20px; /* Space between items */
+  margin: 0 10px; /* Space between items */
   color: rgb(255, 255, 255); /* Taxi yellow text color */
   cursor: pointer;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1em;
+}
+
+.taksi__navbar a {
+  margin: 0 10px; /* Space between items */
+  color: rgb(255, 255, 255); /* Taxi yellow text color */
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .taksi__navbar p {
-  margin: 0 20px; /* Space between items */
+  margin: 0 10px; /* Space between items */
   color: rgb(255, 255, 255); /* Taxi yellow text color */
   font-weight: bold;
   font-size: 2em;
@@ -85,6 +92,11 @@
 }
 
 .taksi__navbar li:hover {
+  
+  color: rgb(255, 206, 50);
+}
+
+.taksi__navbar a:hover {
   
   color: rgb(255, 206, 50);
 }

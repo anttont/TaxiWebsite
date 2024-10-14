@@ -17,9 +17,9 @@ const Navbar = () => {
                 <p>KARI TORNIKOSKI TAKSI</p>
 
                 <ul className="taksi__navbar-list">
-                <li>Hinnasto</li>
-                <li>Palvelut</li>
-                <li>Yhteystiedot</li>
+                <p> <a href="#pricing">Hinnasto</a></p>
+                <p> <a href="#reviews">Arvostelut</a></p>
+                <p> <a href="#contact">Yhteystiedot</a></p>
                 </ul>
 
                 <button  onClick={handleClick} className={`taksi__navbar-button ${isAnimating ? 'leave-screen' : ''}`}>tilaa</button> 

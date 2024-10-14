@@ -14,4 +14,8 @@ body {
     align-items: center;
     height: 100%;
   }
+
+  html {
+    scroll-behavior: smooth; /* Optional for additional smooth scrolling */
+  }
   

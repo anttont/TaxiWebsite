@@ -19,14 +19,15 @@ const HeroSection = () => {
   
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="hero">
       <div className="hero-background">
         <img src={hämeenkatu} alt="Taxi cars on Hämeenkatu" />
       </div>
       <div className="hero-content">
-        <h2>TAKSI KARI TORNIKOSKI 050-67020</h2>
+        <h2>TAKSI KARI TORNIKOSKI</h2>
         <hr className="hero-divider" /> 
         <h1>Perinteistä taksipalvelua</h1>
+        <h1> 050-67020</h1>
         <p>
           Taksi Kari Tornikoski takaa luotettavaa perinteistä palvelua edullisin hinnoin.
         </p>
