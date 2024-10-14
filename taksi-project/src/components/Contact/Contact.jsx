@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="contact-box">
         <h3>Yhteystiedot</h3>
-        <p>Puhnum: 0501232423</p>
+        <p>Puhnum: 050-67020</p>
         <p>Sähköposti: taksi@firma.fi</p>
       </div>
 
