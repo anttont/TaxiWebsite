@@ -10,7 +10,7 @@
     margin: 0 auto; /* Center the container */
     background-color: rgb(0, 0, 0); /* Light background for the container */
     border-radius: 10px; /* Slight rounded corners */
-   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1); /* Subtle shadow for depth */
   }
   
   .contact-box {

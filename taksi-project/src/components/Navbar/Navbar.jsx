@@ -3,20 +3,22 @@ import "./Navbar.css";
 import Modal from '../Modal/Modal.jsx'
 
 const Navbar = () => {
-  const [isAnimating, setIsAnimating] = useState(false); // State to trigger animation
-  const [isModalOpen, setIsModalOpen] = useState(false);  // State to manage modal visibility
+  const [isAnimating, setIsAnimating] = useState(false);  // State for button animation
+  const [isModalActive, setIsModalActive] = useState(false);  // State for modal visibility
 
   const handleClick = () => {
-    setIsAnimating(true);
-    setIsModalOpen(true);  // Open the modal when button is clicked
-    // Reset animation state after the animation duration
+    setIsAnimating(true);   // Start the button animation
+    setIsModalActive(true);  // Open the modal
     setTimeout(() => {
-      setIsAnimating(false);
-    }, 1000); // Duration of animation in milliseconds
+      setIsAnimating(false);  // Reset button animation after it completes
+    }, 1000); // Duration of animation
   };
 
   const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);  // Toggle modal visibility
+    setIsAnimating(false);    // Reset button animation when closing
+    setTimeout(() => {
+      setIsModalActive(false);  // Delay modal closing to show fade-out
+    }, 500); // Wait for the modal exit animation to complete
   };
 
   return (
@@ -30,13 +32,19 @@ const Navbar = () => {
           <p><a href="#contact">Yhteystiedot</a></p>
         </ul>
 
-        <button onClick={handleClick} className={`taksi__navbar-button ${isAnimating ? 'leave-screen' : ''}`}>tilaa</button> 
+        <button 
+          onClick={handleClick} 
+          className={`taksi__navbar-button ${isAnimating ? 'leave-screen' : ''}`}
+        >
+          tilaa
+        </button>
       </nav>
 
       {/* Render the Modal component */}
-      {isModalOpen && <Modal toggleModal={toggleModal} />}
+      <Modal toggleModal={toggleModal} isModalActive={isModalActive} />
     </div>
   );
 };
 
 export default Navbar;
+

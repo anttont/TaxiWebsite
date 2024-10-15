@@ -24,7 +24,7 @@ const HeroSection = () => {
         <img src={hämeenkatu} alt="Taxi cars on Hämeenkatu" />
       </div>
       <div className="hero-content">
-        <h2>KARI TORNIKOSKI TAKSI</h2>
+        <h2>- KARI TORNIKOSKI TAKSI -</h2>
         <hr className="hero-divider" /> 
         <h1>Perinteistä taksipalvelua</h1>
         <h1> 050-67020</h1>
