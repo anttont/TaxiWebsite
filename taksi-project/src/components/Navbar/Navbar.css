@@ -141,7 +141,7 @@
   }
 
   .taksi__navbar li, .taksi__navbar p, .taksi__navbar-button {
-    font-size: 1.4em;
+    font-size: 1em;
     margin: 5px 0; /* Reduce spacing */
     padding: 8px 15px; /* Adjust button padding */
   }

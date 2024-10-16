@@ -57,5 +57,10 @@
     margin-left: auto;             /* Pushes the last <p> to the far right */
   }
   
+  @media only screen and (max-width: 768px) {
+    .copyright {
+      font-size: 12px;
+    }
+  }
   
   

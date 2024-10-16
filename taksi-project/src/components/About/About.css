@@ -101,3 +101,40 @@
   background-color: #fff;
   color: #000;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .hero-container {
+    padding: 1rem 2rem;
+  }
+  
+  .taksi__navbar li, .taksi__navbar p, .taksi__navbar-button {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    padding: 1rem;
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-container {
+    padding: 0.5rem;
+  }
+
+  .hero-container p {
+    font-size: 15px;
+  }
+
+  .hero-container h2 {
+    font-size: 20px;
+  }
+
+  .hero-container h1 {
+    font-size: 30px;
+  }
+
+}

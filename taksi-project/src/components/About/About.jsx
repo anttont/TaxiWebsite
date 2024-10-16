@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './About.css'; 
-import skoda_placeholder from '/src/assets/images/skoda_transparent.png';
-import kari from '/src/assets/images/fakekaritransparent.png';
 import hämeenkatu from '/src/assets/images/hämeenkatucopy.jpg';
 
 
@@ -29,12 +27,13 @@ const HeroSection = () => {
         <h1>Perinteistä taksipalvelua</h1>
         <h1> 050-67020</h1>
         <p>
-          Kari Tornikoski taksi takaa luotettavaa perinteistä palvelua edullisin hinnoin.
+          Kari Tornikoski taksi takaa luotettavaa perinteistä palvelua edullisin hinnoin. Palvelemme Pirkanmaan alueella. Kysy tarjous myös kauempaa. 
         </p>
-        <div className="hero-buttons">
+        <hr className="hero-divider" /> 
+       {/* <div className="hero-buttons">
           <a href="#book" onClick={handleClick} className={`btn-primary ${isAnimating ? 'leave-screen' : ''}`}>Tilaa nyt</a>
 
-        </div>
+        </div> */}
       </div>
     </div>
   );
