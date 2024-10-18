@@ -38,6 +38,13 @@
     font-size: 1.3em;   
   }
 
+  .copyright a {
+    font-size: 16px; /* Font size for the review text */
+    color: #ffffff; /* Slightly lighter text for the review */
+    text-decoration: none;
+    font-size: 1.3em;   
+  }
+
   .copyright {
     display: flex;                /* Enables flexbox */
     justify-content: space-between; /* Pushes the <p> tags to opposite ends */
@@ -52,10 +59,19 @@
     
     font-size: 1.3em;
   }
+
+  .copyright a {
+    font-size: 16px; /* Font size for the review text */
+    color: #ffffff; /* Slightly lighter text for the review */
+    text-decoration: none;
+    color: rgb(255, 206, 50); 
+    font-size: 1.3em;   
+  }
   
   .copyright p:last-child {
     margin-left: auto;             /* Pushes the last <p> to the far right */
   }
+
   
   @media only screen and (max-width: 768px) {
     .copyright {

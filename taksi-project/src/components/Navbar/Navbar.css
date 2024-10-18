@@ -129,9 +129,14 @@
     font-size: 1.6em;
   }
 
-  .taksi__navbar p, .taksi__navbar-button {
+  .taksi__navbar p {
     font-size: 1.6em;
     padding: 10px 20px; /* Adjust button padding */
+  }
+
+  .taksi__navbar-button{
+    width: 85%;
+    align-self: center;
   }
 }
 
@@ -140,9 +145,15 @@
     padding: 0.5rem;
   }
 
-  .taksi__navbar li, .taksi__navbar p, .taksi__navbar-button {
+  .taksi__navbar li, .taksi__navbar p {
     font-size: 1em;
     margin: 5px 0; /* Reduce spacing */
     padding: 8px 15px; /* Adjust button padding */
   }
+
+  .taksi__navbar-button{
+    width: 100%;
+    align-self: center;
+  }
+
 }
