@@ -8,25 +8,25 @@ const Pricing = () => {
       <h2>Hinnasto</h2>
       <div className="pricing-item">
         <h3>Perusmaksut</h3>
-        <p>Arkisin kello 07:00-18.00 </p>
-        <p>Per mile: $1.50</p>
-        <p>Minimum fare: $5.00</p>
+        <p>Perusmaksu arkisin kello 07:00-18.00: 5,90 €</p>
+        <p>Perusmaksu muina aikoina:  9,50 €</p>
+        <p>Minimimaksu on: 9,90 €</p>
+        
       </div>
       <div className="pricing-item">
-        <h3>Matkataksa</h3>
-        <p>Base fare: $4.00</p>
-        <p>Per mile: $2.00</p>
-        <p>Minimum fare: $7.00</p>
+        <h3>Taksa</h3>
+        <p>Matkataksa: 1,19 €/km</p>
+        <p>Aikaveloitus: 1,09 €/min</p>
+       
       </div>
       <div className="pricing-item">
         <h3>Muut</h3>
-        <p>Base fare: $5.00</p>
-        <p>Per mile: $2.50</p>
-        <p>Minimum fare: $10.00</p>
+        <p>Ennakkotilausmaksu: 5,00 €</p>
+      
       </div>
 
+    
       
-      <p className="note">Note: Prices may vary based on demand and traffic conditions.</p>
     </div>
     <div className="example-container">
     <h2>Esimerkki matkoja</h2>
@@ -34,23 +34,23 @@ const Pricing = () => {
         <p>Tampere - Kangasala: 5€</p>
     </div>
     <div className="example-item">
-        <p>Tampere - Helsinki: 250€</p>
+        <p>Tampere - Hämeenkyrö: 250€</p>
     </div>
     <div className="example-item">
-    <   p>Tampere - Helsinki: 250€</p>
-    </div>
-    <div className="example-item">
-        <p>Tampere - Helsinki: 250€</p>
+    <   p>Tampere - Seinäjoki: 150€</p>
     </div>
     <div className="example-item">
         <p>Tampere - Helsinki: 250€</p>
     </div>
     <div className="example-item">
-    <   p>Tampere - Helsinki: 250€</p>
+        <p>Tampere - Jyväskylä: 250€</p>
+    </div>
+    <div className="example-item">
+    <   p>Tampere - Sodankylä: 600€</p>
     </div>
 
     
-    <p className="note">Note: Prices may vary based on demand and traffic conditions.</p>
+    <p className="note">Otathan huomioon, että lopullinen hinta voi muuttua tai jtn</p>
   </div>
     </div>
     
