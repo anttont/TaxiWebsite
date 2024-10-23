@@ -29,7 +29,7 @@ const Pricing = () => {
       
     </div>
     <div className="example-container">
-    <h2>Esimerkki matkoja</h2>
+    <h2>Esimerkkimatkoja</h2>
     <div className="example-item">
         <p>Tampere - Kangasala: 5€</p>
     </div>

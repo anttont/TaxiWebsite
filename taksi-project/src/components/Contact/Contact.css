@@ -4,8 +4,8 @@
 }
 
 .contact-container {
-    width: 100%; /* Full width of the container */
-   
+    width: 90%; /* Full width of the container */
+    margin: 10%;
     padding: 20px; /* Space inside the container */
     margin: 0 auto; /* Center the container */
     background-color: rgb(0, 0, 0); /* Light background for the container */
@@ -23,7 +23,7 @@
   
   .contact-box h3 {
     margin: 0 0 10px 0; /* Space between name and review */
-    font-size: 18px; /* Font size for reviewer’s name */
+    font-size: 1rem; /* Font size for reviewer’s name */
     color: #ffffff; /* Darker color for text */
    
     font-weight: bold;
@@ -31,7 +31,7 @@
   }
   
   .contact-box p {
-    font-size: 16px; /* Font size for the review text */
+    font-size: 1rem; /* Font size for the review text */
     color: #ffffff; /* Slightly lighter text for the review */
     
     
@@ -39,7 +39,7 @@
   }
 
   .copyright a {
-    font-size: 16px; /* Font size for the review text */
+    font-size: 1rem; /* Font size for the review text */
     color: #ffffff; /* Slightly lighter text for the review */
     text-decoration: none;
     font-size: 1.3em;   
@@ -54,14 +54,14 @@
   
   .copyright p {
     margin: 0;                     /* Removes default margin */
-    font-size: 16px;               /* Font size for the review text */
+    font-size: 1rem;              /* Font size for the review text */
     color: rgb(255, 206, 50);      /* Text color for the copyright info */
     
     font-size: 1.3em;
   }
 
   .copyright a {
-    font-size: 16px; /* Font size for the review text */
+    font-size: 1rem; /* Font size for the review text */
     color: #ffffff; /* Slightly lighter text for the review */
     text-decoration: none;
     color: rgb(255, 206, 50); 

@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-
 .taksi__navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px
+  margin: 30px;
+  overflow: hidden;
 }
 
 .taksi__navbar {
+  max-width: 1600px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  
   border-radius: 15px;
   align-items: center;
   padding: 1rem 4rem;
@@ -33,15 +34,17 @@
 }
 
 .taksi__navbar li {
-  margin: 0 10px; /* Space between items */
+  margin: 0 1em; /* Space between items */
   color: rgb(255, 255, 255); /* Taxi yellow text color */
   cursor: pointer;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1rem;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .taksi__navbar a {
-  margin: 0 10px; /* Space between items */
+  margin: 0 1rem; /* Space between items */
   color: rgb(255, 255, 255); /* Taxi yellow text color */
   font-weight: bold;
   text-decoration: none;
@@ -51,7 +54,9 @@
   margin: 0 10px; /* Space between items */
   color: rgb(255, 255, 255); /* Taxi yellow text color */
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2rem;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .taksi__navbar-button {
@@ -63,9 +68,9 @@
   text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2rem;
   cursor: pointer;
- 
+  
 }
 
 .leave-screen {
@@ -97,18 +102,24 @@
 }
 
 .taksi__navbar a:hover {
-  
   color: rgb(255, 206, 50);
 }
 
 /* Media Queries */
 @media only screen and (max-width: 1200px) {
   .taksi__navbar {
+    flex-direction: column;
+    align-items: flex-start;
     padding: 1rem 2rem;
   }
   
-  .taksi__navbar li, .taksi__navbar p, .taksi__navbar-button {
-    font-size: 1.8em;
+  .taksi__navbar li, .taksi__navbar p{
+    font-size: 1.8rem;
+  }
+  .taksi__navbar-button {
+    margin-top: 1rem;
+    width: 85%;
+    align-self: center;
   }
 }
 
@@ -126,11 +137,11 @@
 
   .taksi__navbar li {
     margin: 10px 0; /* Adjust the space for a vertical layout */
-    font-size: 1.6em;
+    font-size: 1.6rem;
   }
 
   .taksi__navbar p {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     padding: 10px 20px; /* Adjust button padding */
   }
 
@@ -146,7 +157,7 @@
   }
 
   .taksi__navbar li, .taksi__navbar p {
-    font-size: 1em;
+    font-size: 1rem;
     margin: 5px 0; /* Reduce spacing */
     padding: 8px 15px; /* Adjust button padding */
   }
