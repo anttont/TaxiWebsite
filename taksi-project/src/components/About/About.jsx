@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './About.css'; 
 import hämeenkatu from '/src/assets/images/hämeenkatucopy.jpg';
 
-
 const HeroSection = () => {
 
   const [isAnimating, setIsAnimating] = useState(false); // State to trigger animation

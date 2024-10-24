@@ -22,11 +22,7 @@ const Pricing = () => {
       <div className="pricing-item">
         <h3>Muut</h3>
         <p>Ennakkotilausmaksu: 5,00 €</p>
-      
       </div>
-
-    
-      
     </div>
     <div className="example-container">
     <h2>Esimerkkimatkoja</h2>
@@ -48,8 +44,6 @@ const Pricing = () => {
     <div className="example-item">
     <   p>Tampere - Sodankylä: 600€</p>
     </div>
-
-    
     <p className="note">Otathan huomioon, että lopullinen hinta voi muuttua tai jtn</p>
   </div>
     </div>
