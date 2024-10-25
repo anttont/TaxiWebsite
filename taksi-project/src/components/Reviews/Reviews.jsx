@@ -16,7 +16,7 @@ const Reviews = () => {
       </div>
 
       <div className="review-box">
-        <h3>Ystävällinen ja avualias kuljettaja!</h3>
+        <h3>Ystävällinen ja avulias kuljettaja!</h3>
         <div className="stars">★★★★★</div>
       </div>
 
