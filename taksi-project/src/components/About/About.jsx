@@ -24,7 +24,7 @@ const HeroSection = () => {
         <h2>- KARI TORNIKOSKI TAKSI -</h2>
         <hr className="hero-divider" /> 
         <h1>Perinteistä taksipalvelua</h1>
-        <h1> 050-67020</h1>
+        <h1> 050 67 020</h1>
         <p>
           Kari Tornikoski taksi takaa luotettavaa perinteistä palvelua edullisin hinnoin. Palvelemme Pirkanmaan alueella. Kysy tarjous myös kauempaa. 
         </p>

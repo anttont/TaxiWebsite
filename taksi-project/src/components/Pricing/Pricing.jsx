@@ -44,7 +44,7 @@ const Pricing = () => {
     <div className="example-item">
     <   p>Tampere - Sodankylä: 600€</p>
     </div>
-    <p className="note">Otathan huomioon, että lopullinen hinta voi muuttua tai jtn</p>
+    <p className="note">Otathan huomioon, että lopullinen hinta voi muuttua</p>
   </div>
     </div>
     

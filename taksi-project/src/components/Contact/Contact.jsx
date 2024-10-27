@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-box">
         <h3>Yhteystiedot</h3>
         <p>Kari Tornikoski</p>
-        <p>Puhelin numero: 050-67020</p>
+        <p>Puhelinnumero: 050 67 020</p>
         <p>Sähköposti: taksi@firma.fi</p>
       </div>
 
