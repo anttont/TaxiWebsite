@@ -23,7 +23,7 @@ const Pricing = () => {
         <h3>Muut</h3>
         <p>Ennakkotilausmaksu: 5,00 €</p>
       </div>
-    </div>
+    </div>{/*
     <div className="example-container">
     <h2>Esimerkkimatkoja</h2>
     <div className="example-item">
@@ -44,8 +44,8 @@ const Pricing = () => {
     <div className="example-item">
     <   p>Tampere - Sodankylä: 600€</p>
     </div>
-    <p className="note">Otathan huomioon, että lopullinen hinta voi muuttua</p>
-  </div>
+    <p className="note">Otathan huomioon, että lopullinen hinta voi muuttua.</p>
+  </div>*/}
     </div>
     
   );

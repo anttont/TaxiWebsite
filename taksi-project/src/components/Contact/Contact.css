@@ -56,7 +56,8 @@
     margin: 0;                     /* Removes default margin */
     font-size: 1rem;              /* Font size for the review text */
     color: rgb(255, 206, 50);      /* Text color for the copyright info */
-    
+    white-space: normal;
+    word-wrap: break-word;
     font-size: 1.3em;
   }
 
