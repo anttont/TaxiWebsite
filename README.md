@@ -1,1 +1,1 @@
-Taksi webapp built using React.
+Taxi website built using React.
