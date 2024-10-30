@@ -4,11 +4,11 @@ body {
     font-family: 'Poppins', sans-serif;
     background: rgb(255, 206, 50);
     height: 100vh; /* Full viewport height */
+    height: -webkit-fill-available;
     margin: 0; /* Remove default margins */
   }
   
   .App {
-    /* You can add additional styling for your app container here if needed */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,7 @@ body {
   }
 
   html {
-    scroll-behavior: smooth; /* Optional for additional smooth scrolling */
+    scroll-behavior: smooth; 
+    height: -webkit-fill-available;
   }
   

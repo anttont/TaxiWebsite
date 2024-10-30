@@ -41,14 +41,15 @@
 }
 
 .hero-content h2 {
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: normal;
   margin-bottom: 10px;
   letter-spacing: 1px;
   
 }
+
 .hero-content h1 {
-  font-size: 48px;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 10px 0; /* Reduce vertical margin to decrease the gap */
   color: rgb(255, 255, 255); /* Default color */
@@ -149,26 +150,4 @@
   .hero-container h1 {
     font-size: 1.5rem;
   }
-
-  @media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 780px) {
-    .hero-container {
-      height: 100vh; /* Full viewport height to make content visible */
-      padding: 1rem;
-      overflow-y: auto; /* Enables scrolling within the container */
-    }
-  
-    .hero-content h1 {
-      font-size: 1.2rem; /* Responsive font size */
-    }
-  
-    .hero-content h2 {
-      font-size: 1rem;
-    }
-  
-    .hero-content p {
-      font-size: 0.9rem;
-    }
-  }
-
-
 }
