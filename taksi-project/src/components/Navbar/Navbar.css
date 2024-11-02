@@ -115,6 +115,7 @@
   
   .taksi__navbar li, .taksi__navbar p{
     font-size: 1.8rem;
+    margin: 0px 0px;
   }
   .taksi__navbar-button {
     margin-top: 1rem;
@@ -138,6 +139,7 @@
   .taksi__navbar li {
     margin: 10px 0; /* Adjust the space for a vertical layout */
     font-size: 1.6rem;
+    
   }
 
   .taksi__navbar p {
