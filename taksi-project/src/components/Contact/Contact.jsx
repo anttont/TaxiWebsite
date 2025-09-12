@@ -15,7 +15,7 @@ const Contact = () => {
 
       <div className="copyright">
         <p>© 2024 Kari Tornikoski Taksi</p>
-        <a href="http://anttonitornikoski.com" >Sivusto: anttonitornikoski.com</a>
+        <a>Sivusto: Anttoni Tornikoski</a>
       </div>
 
       
