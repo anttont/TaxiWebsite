@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
 
       <div className="copyright">
-        <p>© 2025 Kari Tornikoski Taksi</p>
+        <p>© 2026 Kari Tornikoski Taksi</p>
         <a>Sivusto: Anttoni Tornikoski</a>
       </div>
 
